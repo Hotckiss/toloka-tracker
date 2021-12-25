@@ -13,4 +13,4 @@ app = FastAPI()
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
-    return Jinja2Templates(directory="xxx").TemplateResponse("root.html", {"request": request})
+    return Jinja2Templates(directory="toloka_tracker/templates").TemplateResponse("index.html", {"request": request})
