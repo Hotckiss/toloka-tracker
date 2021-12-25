@@ -1,2 +1,4 @@
+toloka-tracker/.idea
+toloka-tracker/__pycache__/
 *pycache*
 *idea*
